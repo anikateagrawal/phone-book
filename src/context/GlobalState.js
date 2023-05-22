@@ -39,7 +39,7 @@ export const GlobalProvider=({children})=>{
         })
     }
 
-    return <GlobalContext.Provider value={{contact:state.contacts,deleteContact,addContact}}>
+    return <GlobalContext.Provider value={{contacts:state.contacts,deleteContact,addContact}}>
     {children}
     </GlobalContext.Provider>
 }

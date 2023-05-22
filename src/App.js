@@ -1,13 +1,14 @@
 import Cards from "./Components/Cards";
 import Form from "./Components/Form";
+import { GlobalProvider } from "./context/GlobalState";
 
 
 function App() {
   return (
-    <div>
+    <GlobalProvider>
   <Form/>
     <Cards />
-    </div>
+    </GlobalProvider>
   );
 }
 
