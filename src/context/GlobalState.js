@@ -5,7 +5,7 @@ import AppReducer from './AppReducer';
 const initialContacts={
     contacts:[{
         id: 1,
-        name: "Anikate",
+        name: "Anikate Agrawal",
         imgURL:
           "https://avatars.githubusercontent.com/u/73731879?v=4",
         phone: "+91 9358817798",
