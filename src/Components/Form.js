@@ -15,7 +15,7 @@ const Form = () => {
         const cont={
           id:contacts.length+1,
           name,
-          image,
+          imgURL:image,
           mobile,email
         }
         addContact(cont);
