@@ -1,7 +1,8 @@
 import React, { useContext } from "react";
+import { GlobalContext } from "../context/GlobalState";
 import Avatar from "./Avatar";
 import Detail from "./Detail";
-import { GlobalContext } from "../context/GlobalState";
+
 
 function Card(props) {
   const {deleteContact}=useContext(GlobalContext);

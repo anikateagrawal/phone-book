@@ -1,7 +1,5 @@
 import React,{useContext} from "react";
 import Card from "./Card";
-// import contacts from "../contacts"; 
-
 import {GlobalContext} from '../context/GlobalState'
 
 function createCard(contact) {
@@ -18,7 +16,7 @@ return (
 }
 
 function Cards() {
-    const {contacts,deleteContact}=useContext(GlobalContext);
+    const {contacts}=useContext(GlobalContext);
 return (
     <div>
     {contacts.map(createCard)}
