@@ -18,6 +18,7 @@ const Form = () => {
           imgURL:image,
           mobile,email
         }
+        console.log(cont)
         addContact(cont);
       }
 
